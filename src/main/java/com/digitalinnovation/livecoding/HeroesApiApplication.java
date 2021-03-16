@@ -7,12 +7,11 @@ import org.socialsignin.spring.data.dynamodb.repository.config.EnableDynamoDBRep
 @SpringBootApplication
 @EnableDynamoDBRepositories
 public class HeroesApiApplication {
+    public static void main(String[] args) {
 
-  public static void main(String[] args) {
-
-    SpringApplication.run(HeroesApiApplication.class, args);
-    System.out.println("super poderes com webflux");
-  }
+        SpringApplication.run(HeroesApiApplication.class, args);
+        System.out.println("super poderes com webflux");
+    }
 
 }
 
